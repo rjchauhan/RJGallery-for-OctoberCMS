@@ -1,4 +1,4 @@
-#Rjgallery Plugin
+#RJ Gallery Plugin
 Create a photo gallery in your website with full screen preview and slideshows.
 
 ####Features
