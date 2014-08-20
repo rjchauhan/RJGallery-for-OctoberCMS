@@ -1,0 +1,15 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        span: full
+        label: Name
+
+    images:
+        label: Images
+        type: fileupload
+        mode: image
+        imageHeight: 150
+        imageWidth: 250

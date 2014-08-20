@@ -1,0 +1,7 @@
+1.0.1:
+- First version of RjGallary
+- create_galleries_table.php
+1.0.2:
+- jQuery inject option added to component options
+1.0.3:
+- Minor bug fix

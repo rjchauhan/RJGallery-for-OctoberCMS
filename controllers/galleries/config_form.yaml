@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Gallery
+
+# Model Form Field configuration
+form: @/plugins/raviraj/rjgallery/models/gallery/fields.yaml
+
+# Model Class name
+modelClass: Raviraj\Rjgallery\Models\Gallery
+
+# Default redirect location
+defaultRedirect: raviraj/rjgallery/galleries
+
+# Create page
+create:
+    title: Create Galleries
+    redirect: raviraj/rjgallery/galleries/update/:id
+    redirectClose: raviraj/rjgallery/galleries
+
+# Update page
+update:
+    title: Edit Galleries
+    redirect: raviraj/rjgallery/galleries
+    redirectClose: raviraj/rjgallery/galleries
+
+# Preview page
+preview:
+    title: Preview Galleries
