@@ -153,8 +153,17 @@ class Gallery extends ComponentBase
                 'default'           => '100',
                 'group'             => 'Thumbnail Options',
             ],
+            'resizer' => [
+                'title'             => 'Resizer Mode',
+                'description'       => 'How thumbnails should be resized',
+                'type'              => 'dropdown',
+                'default'           => 'auto',
+                'options'           => ['auto' => 'Auto', 'exact' => 'Exact', 'portrait' => 'Portrait', 'landscape' => 'Landscape', 'crop' => 'Crop'],
+                'group'             => 'Thumbnail Options',
+            ],
         ];
     }
+
 
     public function getidGalleryOptions()
     {
@@ -170,6 +179,7 @@ class Gallery extends ComponentBase
         $this->addJs('assets/js/lightGallery.min.js');
         $this->addCss('assets/style/lightGallery.css');
     }
+
     public function onRender()
     {
         $gallery = new Galleries;
