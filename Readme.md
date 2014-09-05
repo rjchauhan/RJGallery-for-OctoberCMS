@@ -40,6 +40,7 @@ The component has the following properties:
 * **ESC Close** - Whether gallery should be closed when user presses "Esc", default value is `True`.
 * **Thumbnail Height** - Main thumbnail height in pixels, default value is `70`.
 * **Thumbnail Width** - Main thumbnail width in pixels, default value is `100`.
+* **Resizer Mode** - How thumbnails should be resized, default value is `Auto`.
 
 The next example shows usage of `gallery` component:
 	
