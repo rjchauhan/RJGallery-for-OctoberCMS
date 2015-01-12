@@ -4,13 +4,11 @@
 
 columns:
     name:
-        label: Name
+        label: raviraj.rjgallery::lang.modeldata.name
         searchable: true
 
     created_at:
-        label: Created
-        type: datetime
+        label: raviraj.rjgallery::lang.modeldata.created
 
     updated_at:
-        label: Updated
-        type: datetime
+        label: raviraj.rjgallery::lang.modeldata.updated

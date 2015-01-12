@@ -5,10 +5,10 @@
 fields:
     name:
         span: full
-        label: Name
+        label: raviraj.rjgallery::lang.modeldata.name
 
     images:
-        label: Images
+        label: raviraj.rjgallery::lang.modeldata.images
         type: fileupload
         mode: image
         imageHeight: 150

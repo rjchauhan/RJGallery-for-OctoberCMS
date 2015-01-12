@@ -19,8 +19,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'RjGallery',
-            'description' => 'Create a photo gallery with full screen preview and slideshow',
+            'name'        => 'raviraj.rjgallery::lang.plugin.name',
+            'description' => 'raviraj.rjgallery::lang.plugin.description',
             'author'      => 'Raviraj Chauhan',
             'icon'        => 'icon-picture-o'
         ];
@@ -37,7 +37,7 @@ class Plugin extends PluginBase
     {
         return [
             'gallery' => [
-                'label' => 'RjGallery',
+                'label' => 'raviraj.rjgallery::lang.menu.name',
                 'url'   => Backend::url('raviraj/rjgallery/galleries'),
                 'icon'        => 'icon-picture-o',
                 'permissions' => ['raviraj.*'],
