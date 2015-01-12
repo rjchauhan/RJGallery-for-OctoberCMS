@@ -36,7 +36,7 @@ class Galleries extends Controller
                 $slider->delete();
             }
 
-            Flash::success('raviraj.rjgallery::lang.misc.alldeleted');
+            Flash::success('Successfully deleted those selected.');
         }
 
         return $this->listRefresh();

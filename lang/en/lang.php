@@ -6,7 +6,6 @@ return [
         'description' => 'Create photo gallery for your website with responsive design.'
     ],
     'misc' => [
-    	'alldeleted' => 'Successfully deleted those selected.',
     	'newgallery' => 'New Gallery',
     	'sure' => 'Are you sure?',
     	'remove' => 'Remove',

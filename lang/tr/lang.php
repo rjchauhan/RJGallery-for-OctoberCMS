@@ -6,7 +6,6 @@ return [
         'description' => 'Dinamik tasarımı ile web siteniz için fotoğraf galerisi oluşturabilirsiniz.'
     ],
     'misc' => [
-    	'alldeleted' => 'Seçilenler başarılı şekilde silindi.',
     	'newgallery' => 'Yeni Galeri',
     	'sure' => 'Silmek istediğinize emin misiniz?',
     	'remove' => 'Sil',
