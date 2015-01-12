@@ -3,7 +3,7 @@
 # ===================================
 
 # Record name
-name: Gallery
+name: raviraj.rjgallery::lang.idGallery.title
 
 # Model Form Field configuration
 form: @/plugins/raviraj/rjgallery/models/gallery/fields.yaml
@@ -16,16 +16,16 @@ defaultRedirect: raviraj/rjgallery/galleries
 
 # Create page
 create:
-    title: Create Galleries
+    title: raviraj.rjgallery::lang.form.create
     redirect: raviraj/rjgallery/galleries/update/:id
     redirectClose: raviraj/rjgallery/galleries
 
 # Update page
 update:
-    title: Edit Galleries
+    title: raviraj.rjgallery::lang.form.update
     redirect: raviraj/rjgallery/galleries
     redirectClose: raviraj/rjgallery/galleries
 
 # Preview page
 preview:
-    title: Preview Galleries
+    title: raviraj.rjgallery::lang.form.preview
