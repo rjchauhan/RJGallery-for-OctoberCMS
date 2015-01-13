@@ -26,7 +26,7 @@ class Gallery extends ComponentBase
                 'title'             => 'raviraj.rjgallery::lang.misc.title',
                 'description'       => 'raviraj.rjgallery::lang.misc.description',
                 'type'              => 'string',
-                'default'           => 'Gallery',
+                'default'           => 'raviraj.rjgallery::lang.misc.defaultname',
             ],
             'jqueryinject' => [
                 'title'             => 'raviraj.rjgallery::lang.jqueryinject.title',
@@ -40,7 +40,7 @@ class Gallery extends ComponentBase
                 'description'       => 'raviraj.rjgallery::lang.thumbnail.description',
                 'type'              => 'dropdown',
                 'default'           => 'true',
-                'group'             => 'Options',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.options'),
                 'options'           => ['true'=>'raviraj.rjgallery::lang.thumbnail.optionstrue','false'=>'raviraj.rjgallery::lang.thumbnail.optionsfalse'],
             ],
             'caption' => [
@@ -48,7 +48,7 @@ class Gallery extends ComponentBase
                 'description'       => 'raviraj.rjgallery::lang.caption.description',
                 'type'              => 'dropdown',
                 'default'           => 'true',
-                'group'             => 'Options',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.options'),
                 'options'           => ['true'=>'raviraj.rjgallery::lang.caption.optionstrue','false'=>'raviraj.rjgallery::lang.caption.optionsfalse'],
             ],
             'desc' => [
@@ -56,7 +56,7 @@ class Gallery extends ComponentBase
                 'description'       => 'raviraj.rjgallery::lang.desc.description',
                 'type'              => 'dropdown',
                 'default'           => 'true',
-                'group'             => 'Options',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.options'),
                 'options'           => ['true'=>'raviraj.rjgallery::lang.desc.optionstrue','false'=>'raviraj.rjgallery::lang.desc.optionsfalse'],
             ],
             'counter' => [
@@ -64,7 +64,7 @@ class Gallery extends ComponentBase
                 'description'       => 'raviraj.rjgallery::lang.counter.description',
                 'type'              => 'dropdown',
                 'default'           => 'true',
-                'group'             => 'Options',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.options'),
                 'options'           => ['true'=>'raviraj.rjgallery::lang.counter.optionstrue','false'=>'raviraj.rjgallery::lang.counter.optionsfalse'],
             ],
             'controls' => [
@@ -72,7 +72,7 @@ class Gallery extends ComponentBase
                 'description'       => 'raviraj.rjgallery::lang.controls.description',
                 'type'              => 'dropdown',
                 'default'           => 'true',
-                'group'             => 'Options',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.options'),
                 'options'           => ['true'=>'raviraj.rjgallery::lang.controls.optionstrue','false'=>'raviraj.rjgallery::lang.controls.optionsfalse'],
             ],
             'preload' => [
@@ -82,7 +82,7 @@ class Gallery extends ComponentBase
                 'validationPattern' => '^[\d]+$',
                 'validationMessage' => 'raviraj.rjgallery::lang.preload.validationMessage',
                 'default'           => '1',
-                'group'             => 'Options',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.options'),
             ],
 
             'mode' => [
@@ -90,7 +90,7 @@ class Gallery extends ComponentBase
                 'description'       => 'raviraj.rjgallery::lang.mode.description',
                 'type'              => 'dropdown',
                 'default'           => 'slide',
-                'group'             => 'Effects',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.effects'),
                 'options'           => ['slide'=>'raviraj.rjgallery::lang.mode.optionsslide','fade'=>'raviraj.rjgallery::lang.mode.optionsfade'],
             ],
             'speed' => [
@@ -100,14 +100,14 @@ class Gallery extends ComponentBase
                 'validationPattern' => '^[\d]+$',
                 'validationMessage' => 'raviraj.rjgallery::lang.speed.validationMessage',
                 'default'           => '500',
-                'group'             => 'Effects',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.effects'),
             ],
             'loop' => [
                 'title'             => 'raviraj.rjgallery::lang.loop.title',
                 'description'       => 'raviraj.rjgallery::lang.loop.description',
                 'type'              => 'dropdown',
                 'default'           => 'true',
-                'group'             => 'Effects',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.effects'),
                 'options'           => ['true'=>'raviraj.rjgallery::lang.loop.optionstrue','false'=>'raviraj.rjgallery::lang.loop.optionsfalse'],
             ],
             'auto' => [
@@ -115,7 +115,7 @@ class Gallery extends ComponentBase
                 'description'       => 'raviraj.rjgallery::lang.auto.description',
                 'type'              => 'dropdown',
                 'default'           => 'false',
-                'group'             => 'Effects',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.effects'),
                 'options'           => ['true'=>'raviraj.rjgallery::lang.auto.optionstrue','false'=>'raviraj.rjgallery::lang.auto.optionsfalse'],
             ],
             'pause' => [
@@ -125,14 +125,14 @@ class Gallery extends ComponentBase
                 'validationPattern' => '^[\d]+$',
                 'validationMessage' => 'raviraj.rjgallery::lang.pause.validationMessage',
                 'default'           => '2000',
-                'group'             => 'Effects',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.effects'),
             ],
             'escKey' => [
                 'title'             => 'raviraj.rjgallery::lang.escKey.title',
                 'description'       => 'raviraj.rjgallery::lang.escKey.description',
                 'type'              => 'dropdown',
                 'default'           => 'true',
-                'group'             => 'Effects',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.effects'),
                 'options'           => ['true'=>'raviraj.rjgallery::lang.escKey.optionstrue','false'=>'raviraj.rjgallery::lang.escKey.optionsfalse'],
             ],
             'height' => [
@@ -142,7 +142,7 @@ class Gallery extends ComponentBase
                 'validationPattern' => '^[\d]+$',
                 'validationMessage' => 'raviraj.rjgallery::lang.height.validationMessage',
                 'default'           => '70',
-                'group'             => 'Thumbnail Options',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.thumbs'),
             ],
             'width' => [
                 'title'             => 'raviraj.rjgallery::lang.width.title',
@@ -151,7 +151,7 @@ class Gallery extends ComponentBase
                 'validationPattern' => '^[\d]+$',
                 'validationMessage' => 'raviraj.rjgallery::lang.width.validationMessage',
                 'default'           => '100',
-                'group'             => 'Thumbnail Options',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.thumbs'),
             ],
             'resizer' => [
                 'title'             => 'raviraj.rjgallery::lang.resizer.title',
@@ -159,7 +159,7 @@ class Gallery extends ComponentBase
                 'type'              => 'dropdown',
                 'default'           => 'auto',
                 'options'           => ['auto' => 'raviraj.rjgallery::lang.resizer.optionsauto', 'exact' => 'raviraj.rjgallery::lang.resizer.optionsexact', 'portrait' => 'raviraj.rjgallery::lang.resizer.optionsportrait', 'landscape' => 'raviraj.rjgallery::lang.resizer.optionslandscape', 'crop' => 'raviraj.rjgallery::lang.resizer.optionscrop'],
-                'group'             => 'Thumbnail Options',
+                'group'             => Lang::get('raviraj.rjgallery::lang.groups.thumbs'),
             ],
         ];
     }

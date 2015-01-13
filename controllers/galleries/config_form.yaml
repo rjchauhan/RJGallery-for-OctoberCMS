@@ -3,7 +3,7 @@
 # ===================================
 
 # Record name
-name: raviraj.rjgallery::lang.idGallery.title
+name: raviraj.rjgallery::lang.idgallery.title
 
 # Model Form Field configuration
 form: @/plugins/raviraj/rjgallery/models/gallery/fields.yaml

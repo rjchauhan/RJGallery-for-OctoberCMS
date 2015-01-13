@@ -2,7 +2,7 @@
 
 return [
     'plugin' => [
-        'name' => 'RJ Galeri',
+        'name' => 'Resim Galerisi',
         'description' => 'Dinamik tasarımı ile web siteniz için fotoğraf galerisi oluşturabilirsiniz.'
     ],
     'misc' => [
@@ -10,7 +10,8 @@ return [
     	'sure' => 'Silmek istediğinize emin misiniz?',
     	'remove' => 'Sil',
         'title' => 'Başlık',
-        'description' => 'Galerinin başlığı'
+        'description' => 'Galerinin başlığı',
+        'defaultname' => 'Galeri'
     ],
     'form' => [
     	'create' => 'Galeri Oluştur',
@@ -41,8 +42,13 @@ return [
     	'reallydelete' => 'Galeriyi silmek istediğinize emin misiniz?'
     ],
     'menu' => [
-    	'name' => 'RJ Galeri',
+    	'name' => 'Resim Galerisi',
         'description' => 'Tam ekran önizleme ve slayt gösterisi olan bir fotoğraf galerisi oluşturun'
+    ],
+    'groups' => [
+        'options' => 'Ayarlar',
+        'effects' => 'Efektler',
+        'thumbs' => 'Küçük Resim Ayarları'
     ],
     'idgallery' => [
         'title' => 'Resim Galerisi',

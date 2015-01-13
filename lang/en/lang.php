@@ -10,7 +10,8 @@ return [
     	'sure' => 'Are you sure?',
     	'remove' => 'Remove',
         'title' => 'Title',
-        'description' => 'Title of the gallery'
+        'description' => 'Title of the gallery',
+        'defaultname' => 'Gallery'
     ],
     'form' => [
     	'create' => 'Create Galleries',
@@ -43,6 +44,11 @@ return [
     'menu' => [
     	'name' => 'RJ Gallery',
         'description' => 'Create a photo gallery with full screen preview and slideshow'
+    ],
+    'groups' => [
+        'options' => 'Options',
+        'effects' => 'Effects',
+        'thumbs' => 'Thumbnail Options'
     ],
     'idgallery' => [
         'title' => 'Gallery',

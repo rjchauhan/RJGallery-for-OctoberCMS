@@ -5,3 +5,5 @@
 - jQuery inject option added to component options
 1.0.3:
 - Minor bug fix
+1.0.4:
+- Can now specify thumbnail resizer mode
