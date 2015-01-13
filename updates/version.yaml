@@ -1,9 +1,10 @@
 1.0.1:
-- First version of RjGallary
-- create_galleries_table.php
+- Initial version of RjGallary.
 1.0.2:
-- jQuery inject option added to component options
+- jQuery inject option added to component options.
 1.0.3:
-- Minor bug fix
+- Minor bug fix.
 1.0.4:
-- Can now specify thumbnail resizer mode
+- Can now specify thumbnail resizer mode.
+1.0.5:
+- Multiple language support added.
