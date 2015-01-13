@@ -31,7 +31,7 @@ return [
     	'create' => 'Create',
     	'createclose' => 'Create and Close',
     	'cancel' => 'Cancel',
-    	'or' => 'veya',
+    	'or' => 'or',
     	'return' => 'Return to galleries list'
     ],
     'update' => [
