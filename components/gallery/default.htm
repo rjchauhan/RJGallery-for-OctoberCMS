@@ -58,7 +58,7 @@
     <ul id="{{ __SELF__ }}" class="{{ __SELF__ }}">
         {% for image in gallery.images %}
             <li data-src="{{ image.path }}" data-title="{{ image.title }}" data-desc="{{ image.description }}">
-                <a href="#"><img src="{{ image.getThumb(width, height, resizer) }}" /></a>
+                <a href="#"><img src="{{ image.getThumb(width, height, resizer) }}" alt="{{ image.title }}" /></a>
             </li>
         {% endfor %}
     </ul>
