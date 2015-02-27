@@ -1,4 +1,4 @@
-#RJ Gallery Plugin
+#Light Gallery Plugin for OctoberCMS
 Create a photo gallery in your website with full screen preview and slideshows.
 
 ####Features
