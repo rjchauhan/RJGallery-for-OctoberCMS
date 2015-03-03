@@ -172,7 +172,7 @@ class Gallery extends ComponentBase
 
     public function onRun()
     {
-        if($this->propertyOrParam('jqueryinject')=="yes")
+        if($this->property('jqueryinject')=="yes")
         {
             $this->addJs('assets/js/jquery-1.9.1.min.js');
         }
@@ -185,6 +185,7 @@ class Gallery extends ComponentBase
         $gallery = new Galleries;
         $this->gallery = $this->page['gallery'] = $gallery->where('id', '=', $this->property('idGallery'))->first();
 
+         // Inject all gallery properties to page.
         foreach ($this->getProperties() as $key => $value) {
             $this->page[$key] = $value;
         }
