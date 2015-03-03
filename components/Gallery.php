@@ -183,7 +183,7 @@ class Gallery extends ComponentBase
     public function onRender()
     {
         $gallery = new Galleries;
-        $this->gallery = $this->page['gallery'] = $gallery->where('id', '=', $this->propertyOrParam('idGallery'))->first();
+        $this->gallery = $this->page['gallery'] = $gallery->where('id', '=', $this->property('idGallery'))->first();
 
         foreach ($this->getProperties() as $key => $value) {
             $this->page[$key] = $value;
