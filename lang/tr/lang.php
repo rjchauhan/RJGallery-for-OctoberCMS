@@ -5,6 +5,9 @@ return [
         'name' => 'Resim Galerisi',
         'description' => 'Dinamik tasarımı ile web siteniz için fotoğraf galerisi oluşturabilirsiniz.'
     ],
+    'permissions' => [
+        'all' => 'Manage galleries'
+    ],
     'misc' => [
     	'newgallery' => 'Yeni Galeri',
     	'sure' => 'Silmek istediğinize emin misiniz?',

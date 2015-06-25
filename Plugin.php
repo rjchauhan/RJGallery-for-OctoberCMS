@@ -40,10 +40,16 @@ class Plugin extends PluginBase
                 'label' => 'raviraj.rjgallery::lang.menu.name',
                 'url'   => Backend::url('raviraj/rjgallery/galleries'),
                 'icon'        => 'icon-picture-o',
-                'permissions' => ['raviraj.*'],
+                'permissions' => ['raviraj.rjgallery.*'],
                 'order'       => 500,
             ],
         ];
     }
 
+    public function registerPermissions()
+    {
+        return [
+            'raviraj.rjgallery.*' => ['label' => 'raviraj.rjgallery::lang.permissions.all']
+        ];
+    }
 }

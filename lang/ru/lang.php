@@ -5,6 +5,9 @@ return [
         'name' => 'RJ Gallery',
         'description' => '{Создание галерей с практичным дизайном}.'
     ],
+    'permissions' => [
+        'all' => 'Manage galleries'
+    ],
     'misc' => [
     	'newgallery' => 'Новая галерея',
     	'sure' => 'Вы уверены?',
