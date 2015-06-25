@@ -49,7 +49,7 @@ class Plugin extends PluginBase
     public function registerPermissions()
     {
         return [
-            'raviraj.rjgallery.*' => ['label' => 'raviraj.rjgallery::lang.permissions.all']
+            'raviraj.rjgallery.*' => ['tab' => 'raviraj.rjgallery::lang.plugin.name', 'label' => 'raviraj.rjgallery::lang.permissions.all']
         ];
     }
 }
