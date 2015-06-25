@@ -5,6 +5,9 @@ return [
         'name' => 'RJ Gallery',
         'description' => 'Create photo gallery for your website with responsive design.'
     ],
+    'permissions' => [
+        'all' => 'Manage galleries'
+    ],
     'misc' => [
     	'newgallery' => 'New Gallery',
     	'sure' => 'Are you sure?',
