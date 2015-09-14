@@ -25,7 +25,7 @@
 {% put scripts %}
     <script>
          $(document).ready(function() {
-            $("#{{ __SELF__ }}").lightGallery({
+            var {{ __SELF__ }} = $("#{{ __SELF__ }}").lightGallery({
                 // Elements
                 thumbnail   : {{ thumbnail }},
                 caption     : {{ caption }},
