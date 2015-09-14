@@ -13,3 +13,7 @@
 - Minor fix.
 1.0.7:
 - Added compatibility for latest version of OctoberCMS.
+1.0.8:
+- Add permissions management
+1.0.9:
+- Add CS locale
