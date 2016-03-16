@@ -17,3 +17,5 @@
 - Add permissions management
 1.0.9:
 - Add CS locale
+1.1.0:
+- Fix deleting galleries
