@@ -22,7 +22,7 @@ class Galleries extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Raviraj.Rjgallery', 'rjgallery', 'galleries');
+        BackendMenu::setContext('Raviraj.Rjgallery', 'gallery', 'galleries');
     }
 
     public function index_onDelete()
