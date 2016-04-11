@@ -19,3 +19,5 @@
 - Add CS locale
 1.1.0:
 - Fix deleting galleries
+1.1.1:
+- Fix config path for OctoberCMS build 324
