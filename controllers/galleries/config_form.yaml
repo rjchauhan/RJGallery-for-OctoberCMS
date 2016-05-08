@@ -6,7 +6,7 @@
 name: raviraj.rjgallery::lang.idgallery.title
 
 # Model Form Field configuration
-form: @/plugins/raviraj/rjgallery/models/gallery/fields.yaml
+form: $/raviraj/rjgallery/models/gallery/fields.yaml
 
 # Model Class name
 modelClass: Raviraj\Rjgallery\Models\Gallery
