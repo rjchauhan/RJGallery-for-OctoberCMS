@@ -1,0 +1,153 @@
+<?php
+return [
+    'plugin' => [
+        'name' => 'گالری تصاویر',
+        'description' => 'ساخت گالری تصاویر رسپانسیو در وب سایت',
+    ],
+    'permissions' => [
+        'all' => 'مدیریت گالری ها',
+    ],
+    'misc' => [
+        'newgallery' => 'گالری جدید',
+        'sure' => 'اطمینان دارید؟',
+        'remove' => 'حذف',
+        'title' => 'عنوان',
+        'description' => 'عنوان گالری',
+        'defaultname' => 'گالری',
+    ],
+    'form' => [
+        'create' => 'ساخت گالری',
+        'update' => 'به روز رسانی گالری',
+        'preview' => 'پیش نمایش گالری',
+        'manage' => 'مدیریت گالری ها',
+    ],
+    'modeldata' => [
+        'name' => 'نام',
+        'created' => 'ساخته شد',
+        'updated' => 'به روز شد',
+        'images' => 'تصاویر',
+    ],
+    'create' => [
+        'galleries' => 'گالری ها',
+        'creating' => 'درحال ساخت گالری...',
+        'create' => 'ساخت',
+        'createclose' => 'ساختن و بستن',
+        'cancel' => 'لغو',
+        'or' => 'یا',
+        'return' => 'بازگشت به لیست گالری ها',
+    ],
+    'update' => [
+        'saving' => 'درحال ذخیره گالری ...',
+        'save' => 'ذخیره',
+        'saveclose' => 'ذخیره و بستن',
+        'deleting' => 'درحال حذف گالری...',
+        'reallydelete' => 'آیا واقعا مایل به حذف این گالری هستید؟',
+    ],
+    'menu' => [
+        'name' => 'گالری تصاویر',
+        'description' => 'ساخت گالری رسپانسیو',
+    ],
+    'groups' => [
+        'options' => 'تنظیمات',
+        'effects' => 'افکت',
+        'thumbs' => 'تنظیمات نمایش',
+    ],
+    'idgallery' => [
+        'title' => 'گالری',
+        'description' => 'انتخحاب گالی جهت نمایش',
+    ],
+    'jqueryinject' => [
+        'title' => 'jQuery Inject',
+        'description' => 'اضافه کردن jQuery یا خیر',
+        'optionsyes' => 'بله',
+        'optionsno' => 'خیر',
+    ],
+    'thumbnail' => [
+        'title' => 'پیش نمایش تصویر',
+        'description' => 'آیا دکمه جهت نمایش تصویر نمایش داده شود یا خیر',
+        'optionstrue' => 'بله',
+        'optionsfalse' => 'خیر',
+    ],
+    'caption' => [
+        'title' => 'عنوان تصویر',
+        'description' => 'فعال سازی عنوان تصویر',
+        'optionstrue' => 'بله',
+        'optionsfalse' => 'خیر',
+    ],
+    'desc' => [
+        'title' => 'توضیحات تصویر',
+        'description' => 'فعال سازی توضیحات تصویر',
+        'optionstrue' => 'بله',
+        'optionsfalse' => 'خیر',
+    ],
+    'counter' => [
+        'title' => 'شماره تصاویر',
+        'description' => 'نمایش تعداد تصاویر و شماره تصویر کنونی',
+        'optionstrue' => 'بله',
+        'optionsfalse' => 'خیر',
+    ],
+    'controls' => [
+        'title' => 'کنترل حرکت',
+        'description' => 'نمایش دکمه های بعدی و قبلی',
+        'optionstrue' => 'بله',
+        'optionsfalse' => 'خیر',
+    ],
+    'preload' => [
+        'title' => 'پیش خوانی',
+        'description' => 'تعداد تصاویر قبل و بعد از تصویر برای بارگزاری',
+        'validationMessage' => 'فرمت اشتباه است',
+    ],
+    'mode' => [
+        'title' => 'جابجایی',
+        'description' => 'نوع جابجایی تصاویر',
+        'optionsslide' => 'اسلاید',
+        'optionsfade' => 'فید',
+    ],
+    'speed' => [
+        'title' => 'سرعت جابجایی تصاویر',
+        'description' => 'سرعت جابجایی به میلی ثانیه',
+        'validationMessage' => 'فرمت اشتباه است',
+    ],
+    'loop' => [
+        'title' => 'چرخه',
+        'description' => 'اجازه به رفتن به دیگر سمت تصاویر گالری در ابتدا/انتها',
+        'optionstrue' => 'بله',
+        'optionsfalse' => 'خیر',
+    ],
+    'auto' => [
+        'title' => 'پخش خودکار',
+        'description' => 'فعالسازی پخش خودکار تصاویر',
+        'optionstrue' => 'بله',
+        'optionsfalse' => 'خیر',
+    ],
+    'pause' => [
+        'title' => 'زمان توقف',
+        'description' => 'زمان توقف بین جابجایی اسلاید ها به میلی ثانیه',
+        'validationMessage' => 'فرمت اشتباه است',
+    ],
+    'escKey' => [
+        'title' => 'خروج با ESC',
+        'description' => 'با زدن دکمه ESC گالری بسته شود؟',
+        'optionstrue' => 'بله',
+        'optionsfalse' => 'خیر',
+    ],
+    'height' => [
+        'title' => 'ارتفاع تصاویر پیش نمایش',
+        'description' => 'ارتفاع تصویر پیش نمایش به پیکسل',
+        'validationMessage' => 'فرمت اشتباه است',
+    ],
+    'width' => [
+        'title' => 'عرض تصویر پیش نمایش',
+        'description' => 'عرض تصویر پیش مایش به پیکسل',
+        'validationMessage' => 'فرمت اشتباه است',
+    ],
+    'resizer' => [
+        'title' => 'حالت تغییر اندازه',
+        'description' => 'تصاویر چگونه باید برش بخورند',
+        'optionsauto' => 'خودکار',
+        'optionsexact' => 'دقیقا',
+        'optionsportrait' => 'عمومی',
+        'optionslandscape' => 'افقی',
+        'optionscrop' => 'برش',
+    ],
+];
