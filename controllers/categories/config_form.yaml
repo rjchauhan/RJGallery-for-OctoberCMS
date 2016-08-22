@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Category
+
+# Model Form Field configuration
+form: $/raviraj/rjgallery/models/category/fields.yaml
+
+# Model Class name
+modelClass: Raviraj\Rjgallery\Models\Category
+
+# Default redirect location
+defaultRedirect: raviraj/rjgallery/categories
+
+# Create page
+create:
+    title: Create Category
+    redirect: raviraj/rjgallery/categories/update/:id
+    redirectClose: raviraj/rjgallery/categories
+
+# Update page
+update:
+    title: Edit Category
+    redirect: raviraj/rjgallery/categories
+    redirectClose: raviraj/rjgallery/categories
+
+# Preview page
+preview:
+    title: Preview Category

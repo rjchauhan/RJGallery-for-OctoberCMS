@@ -1,0 +1,14 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: raviraj.rjgallery::lang.modeldata.name
+        searchable: true
+
+    created_at:
+        label: raviraj.rjgallery::lang.modeldata.created
+
+    updated_at:
+        label: raviraj.rjgallery::lang.modeldata.updated

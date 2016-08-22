@@ -1,0 +1,23 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        span: left
+        label: raviraj.rjgallery::lang.modeldata.name
+        placeholder: raviraj.rjgallery::lang.modeldata.name_placeholder
+
+    slug:
+        label: raviraj.rjgallery::lang.modeldata.slug
+        span: right
+        placeholder: raviraj.rjgallery::lang.modeldata.slug_placeholder
+        preset:
+            field: name
+            type: slug
+    
+    description:
+        label: raviraj.rjgallery::lang.modeldata.description
+        span: full
+        type: textarea
+        placeholder: raviraj.rjgallery::lang.modeldata.description_placeholder

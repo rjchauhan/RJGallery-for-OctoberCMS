@@ -26,7 +26,23 @@ return [
     	'name' => 'Name',
     	'created' => 'Created',
     	'updated' => 'Updated',
-    	'images' => 'Images'
+    	'images' => 'Images',
+        'slug' => 'Slug',
+        'description' => 'Description',
+        'published' => 'Published',
+        'published_at' => 'Published at',
+        'categories' => 'Categories',
+        'slug_placeholder' => 'Enter slug',
+        'name_placeholder' => 'Enter name',
+        'description_placeholder' => 'Enter Description',
+
+    ],
+    'exeption' => [
+        'publish_date_validation' => "Must specify a date"
+    ],
+    'tabs' => [
+       'info' => 'Info',
+       'settings' => 'Settings'
     ],
     'create' => [
     	'galleries' => 'Galleries',
@@ -46,7 +62,15 @@ return [
     ],
     'menu' => [
     	'name' => 'RJ Gallery',
-        'description' => 'Create a photo gallery with full screen preview and slideshow'
+        'description' => 'Create a photo gallery with full screen preview and slideshow',
+        'new_gallery' => 'New gallery',
+        'new_category' => 'New category',
+        'galleries'  => 'Galleries',
+        'categories' => 'Categories'
+    ],
+    'gallerylist' => [
+        'name' => 'List of Galleries',
+        'description' => 'Show all published galleries'
     ],
     'groups' => [
         'options' => 'Options',
