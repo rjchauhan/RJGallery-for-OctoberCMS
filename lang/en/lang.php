@@ -70,7 +70,13 @@ return [
     ],
     'gallerylist' => [
         'name' => 'List of Galleries',
-        'description' => 'Show all published galleries'
+        'description' => 'Show all published galleries',
+        'galleryPage' => 'Gallery page',
+        'galleryPage_description' => 'Page where gallery will be shown',
+        'categoryPage'  => 'Category page',
+        'categoryPage_description' => 'Page where category will be shown',
+        'noGalleriesMessage' => 'No galleries message',
+        'noGalleriesMessage_description' => 'Message to shown in case of no galleries'
     ],
     'groups' => [
         'options' => 'Options',
@@ -80,6 +86,11 @@ return [
     'idgallery' => [
         'title' => 'Gallery',
         'description' => 'Choose the gallery that will display'
+    ],
+    'slug' => [
+        'title' => 'Gallery slug',
+        'description' => 'Slug, search for gallery with it',
+        'default'     => '{{ :slug }}',
     ],
     'jqueryinject' => [
         'title' => 'jQuery Inject',

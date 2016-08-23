@@ -6,6 +6,12 @@ use Lang;
 
 class Gallery extends ComponentBase
 {
+
+    /**
+     * @var Raviraj\Rjgallery\Models\Gallery The gallery model used for display.
+     */
+    public $gallery;
+
     public function componentDetails()
     {
         return [
@@ -17,10 +23,11 @@ class Gallery extends ComponentBase
     public function defineProperties()
     {
         return [
-            'idGallery' => [
-                'title'        => 'raviraj.rjgallery::lang.idgallery.title',
-                'description'  => 'raviraj.rjgallery::lang.idgallery.description',
-                'type'         => 'dropdown',
+            'slug' => [
+                'title'        => 'raviraj.rjgallery::lang.slug.title',
+                'description'  => 'raviraj.rjgallery::lang.slug.description',
+                'default'      => '{{:slug}}',
+                'type'         => 'string'
             ],
             'lang' => [
                 'title'             => 'raviraj.rjgallery::lang.misc.title',
@@ -165,10 +172,6 @@ class Gallery extends ComponentBase
     }
 
 
-    public function getidGalleryOptions()
-    {
-        return Galleries::select('id', 'name')->orderBy('name')->get()->lists('name', 'id');
-    }
 
     public function onRun()
     {
@@ -178,17 +181,30 @@ class Gallery extends ComponentBase
         }
         $this->addJs('assets/js/lightGallery.min.js');
         $this->addCss('assets/style/lightGallery.css');
+
+        $this->gallery = $this->page['gallery'] = $this->loadGallery();
     }
 
     public function onRender()
     {
-        $gallery = new Galleries;
-        $this->gallery = $this->page['gallery'] = $gallery->where('id', '=', $this->property('idGallery'))->first();
-
          // Inject all gallery properties to page.
         foreach ($this->getProperties() as $key => $value) {
             $this->page[$key] = $value;
         }
+    }
+    
+
+    protected function loadGallery()
+    {
+        $slug = $this->property('slug');
+
+        $gallery = new Galleries;
+
+        $gallery = $gallery->where('slug', $slug);
+
+        $gallery = $gallery->isPublished()->first();
+
+        return $gallery;
     }
 
 }

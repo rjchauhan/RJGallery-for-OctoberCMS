@@ -21,3 +21,9 @@
 - Fix deleting galleries
 1.1.1:
 - Fix config path for OctoberCMS build 324
+1.1.2:
+- Add slug and description in gallery model.
+- galleries_add_desc_field_table.php
+1.1.3:
+- Add Category database and Category model.
+- create_categories_table.php
