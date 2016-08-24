@@ -87,6 +87,10 @@ return [
         'title' => 'Gallery',
         'description' => 'Choose the gallery that will display'
     ],
+    'galleryslug' => [
+        'title' => 'Gallery Slug',
+        'description' => 'Show gallery depending on the slug'
+    ],
     'slug' => [
         'title' => 'Gallery slug',
         'description' => 'Slug, search for gallery with it',

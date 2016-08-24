@@ -12,3 +12,6 @@ columns:
 
     updated_at:
         label: raviraj.rjgallery::lang.modeldata.updated
+    
+    galleries_count:
+        label: Galleries

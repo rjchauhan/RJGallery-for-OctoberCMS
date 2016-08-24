@@ -29,7 +29,8 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Raviraj\Rjgallery\Components\Gallery' => 'gallery',
+            'Raviraj\Rjgallery\Components\Gallery' => 'galleryId',
+            'Raviraj\Rjgallery\Components\GallerySlug' => 'gallerySlug',
             'Raviraj\Rjgallery\Components\GalleriesList' => 'galleriesList'
         ];
     }
