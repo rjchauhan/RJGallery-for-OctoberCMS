@@ -1,0 +1,10 @@
+
+<ul>
+{% for gallery in galleries %}
+	<li>
+		<h3><a href="{{gallery.url}}">{{gallery.name}}</a></h3>
+	</li>
+{% else %}
+	{{noGalleriesMessage}}
+{% endfor %}
+</ul>

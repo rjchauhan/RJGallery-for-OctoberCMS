@@ -7,12 +7,11 @@ columns:
         label: raviraj.rjgallery::lang.modeldata.name
         searchable: true
 
-    published:
-        label: raviraj.rjgallery::lang.modeldata.published
-        type: switch
-
     created_at:
         label: raviraj.rjgallery::lang.modeldata.created
 
     updated_at:
         label: raviraj.rjgallery::lang.modeldata.updated
+    
+    galleries_count:
+        label: Galleries

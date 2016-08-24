@@ -2,14 +2,56 @@
 #  Form Field Definitions
 # ===================================
 
-fields:
-    name:
-        span: full
-        label: raviraj.rjgallery::lang.modeldata.name
+tabs:
+    fields:
+        name:
+            span: left
+            label: raviraj.rjgallery::lang.modeldata.name
+            placeholder: raviraj.rjgallery::lang.modeldata.name_placeholder
+            tab: raviraj.rjgallery::lang.tabs.info
 
-    images:
-        label: raviraj.rjgallery::lang.modeldata.images
-        type: fileupload
-        mode: image
-        imageHeight: 150
-        imageWidth: 250
+        slug:
+            label: raviraj.rjgallery::lang.modeldata.slug
+            span: right
+            tab: raviraj.rjgallery::lang.tabs.info
+            placeholder: raviraj.rjgallery::lang.modeldata.slug_placeholder
+            preset:
+                field: name
+                type: slug
+
+        images:
+            label: raviraj.rjgallery::lang.modeldata.images
+            type: fileupload
+            mode: image
+            tab: raviraj.rjgallery::lang.tabs.info
+            imageHeight: 150
+            imageWidth: 250
+
+        categories:
+            commentAbove: raviraj.rjgallery::lang.modeldata.categories
+            type: relation
+            tab: raviraj.rjgallery::lang.tabs.settings
+
+        description:
+            label: raviraj.rjgallery::lang.modeldata.description
+            span: full
+            type: textarea
+            tab: raviraj.rjgallery::lang.tabs.info
+            placeholder: raviraj.rjgallery::lang.modeldata.description_placeholder
+
+        published:
+            label: raviraj.rjgallery::lang.modeldata.published
+            type: switch
+            span: left
+            tab: raviraj.rjgallery::lang.tabs.settings
+
+        published_at:
+            label: raviraj.rjgallery::lang.modeldata.published_at
+            type: datepicker
+            mode: date
+            span: left
+            tab: raviraj.rjgallery::lang.tabs.settings
+            trigger:
+                action: enable
+                field: published
+                condition: checked
