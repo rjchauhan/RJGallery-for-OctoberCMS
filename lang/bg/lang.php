@@ -9,24 +9,24 @@ return [
         'all' => 'Manage galleries'
     ],
     'misc' => [
-    	'newgallery' => 'New Gallery',
-    	'sure' => 'Are you sure?',
-    	'remove' => 'Remove',
+        'newgallery' => 'New Gallery',
+        'sure' => 'Are you sure?',
+        'remove' => 'Remove',
         'title' => 'Title',
         'description' => 'Title of the gallery',
         'defaultname' => 'Gallery'
     ],
     'form' => [
-    	'create' => 'Create Galleries',
-    	'update' => 'Update Galleries',
-    	'preview' => 'Preview Galleries',
-    	'manage' => 'Manage Galleries'
+        'create' => 'Create Galleries',
+        'update' => 'Update Galleries',
+        'preview' => 'Preview Galleries',
+        'manage' => 'Manage Galleries'
     ],
     'modeldata' => [
-    	'name' => 'Name',
-    	'created' => 'Created',
-    	'updated' => 'Updated',
-    	'images' => 'Images',
+        'name' => 'Name',
+        'created' => 'Created',
+        'updated' => 'Updated',
+        'images' => 'Images',
         'slug' => 'Slug',
         'description' => 'Description',
         'published' => 'Published',
@@ -45,23 +45,23 @@ return [
        'settings' => 'Settings'
     ],
     'create' => [
-    	'galleries' => 'Galleries',
-    	'creating' => 'Creating Gallery...',
-    	'create' => 'Create',
-    	'createclose' => 'Create and Close',
-    	'cancel' => 'Cancel',
-    	'or' => 'or',
-    	'return' => 'Return to galleries list'
+        'galleries' => 'Galleries',
+        'creating' => 'Creating Gallery...',
+        'create' => 'Create',
+        'createclose' => 'Create and Close',
+        'cancel' => 'Cancel',
+        'or' => 'or',
+        'return' => 'Return to galleries list'
     ],
     'update' => [
-    	'saving' => 'Saving Gallery...',
-    	'save' => 'Save',
-    	'saveclose' => 'Save and Close',
-    	'deleting' => 'Deleting Gallery...',
-    	'reallydelete' => 'Do you really want to delete this gallery?'
+        'saving' => 'Saving Gallery...',
+        'save' => 'Save',
+        'saveclose' => 'Save and Close',
+        'deleting' => 'Deleting Gallery...',
+        'reallydelete' => 'Do you really want to delete this gallery?'
     ],
     'menu' => [
-    	'name' => 'RJ Gallery',
+        'name' => 'RJ Gallery',
         'description' => 'Create a photo gallery with full screen preview and slideshow',
         'new_gallery' => 'New gallery',
         'new_category' => 'New category',
@@ -70,24 +70,7 @@ return [
     ],
     'gallerylist' => [
         'name' => 'List of Galleries',
-        'description' => 'Show all published galleries',
-        'galleryPage' => 'Gallery page',
-        'galleryPage_description' => 'Page where gallery will be shown',
-        'categoryPage'  => 'Category page',
-        'categoryPage_description' => 'Page where category will be shown',
-        'noGalleriesMessage' => 'No galleries message',
-        'noGalleriesMessage_description' => 'Message to shown in case of no galleries'
-    ],
-    'categorylist' => [
-            'name' => 'List of Categories',
-            'description' => 'Show all categories',
-            'category_slug' => 'Show category depending on the slug',
-            'category_slug_description' => 'Slug is name of slug variable',
-            'category_display_empty' => 'Display empty categories',
-            'category_display_empty_description' => 'Show categories that do not have any galleries',
-            'noCategoriesMessage' => "No Categories Message",
-            'noCategoriesMessage_description' => 'Message to shown in case of no categories'
-
+        'description' => 'Show all published galleries'
     ],
     'groups' => [
         'options' => 'Options',
@@ -97,15 +80,6 @@ return [
     'idgallery' => [
         'title' => 'Gallery',
         'description' => 'Choose the gallery that will display'
-    ],
-    'galleryslug' => [
-        'title' => 'Gallery Slug',
-        'description' => 'Show gallery depending on the slug'
-    ],
-    'slug' => [
-        'title' => 'Gallery slug',
-        'description' => 'Slug is name of slug variable',
-        'default'     => '{{ :slug }}',
     ],
     'jqueryinject' => [
         'title' => 'jQuery Inject',

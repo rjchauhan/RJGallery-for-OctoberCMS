@@ -24,8 +24,8 @@ tabs:
             type: fileupload
             mode: image
             tab: raviraj.rjgallery::lang.tabs.info
-            imageHeight: 150
-            imageWidth: 250
+            imageHeight: 800
+            imageWidth: 800
 
         categories:
             commentAbove: raviraj.rjgallery::lang.modeldata.categories
