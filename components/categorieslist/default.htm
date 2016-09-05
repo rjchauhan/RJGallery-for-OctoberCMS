@@ -1,0 +1,10 @@
+
+<ul>
+{% for category in categories %}
+	<li>
+		<h3><a href="{{category.url}}">{{category.name}}</a></h3>
+	</li>
+{% else %}
+	{{noGalleriesMessage}}
+{% endfor %}
+</ul>

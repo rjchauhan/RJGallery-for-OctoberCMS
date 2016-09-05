@@ -31,7 +31,8 @@ class Plugin extends PluginBase
         return [
             'Raviraj\Rjgallery\Components\Gallery' => 'galleryId',
             'Raviraj\Rjgallery\Components\GallerySlug' => 'gallerySlug',
-            'Raviraj\Rjgallery\Components\GalleriesList' => 'galleriesList'
+            'Raviraj\Rjgallery\Components\GalleriesList' => 'galleriesList',
+            'Raviraj\Rjgallery\Components\CategoriesList' => 'categoriesList'
         ];
     }
 
