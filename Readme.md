@@ -45,7 +45,7 @@ The component has the following properties:
 * **Resizer Mode** - How thumbnails should be resized, default value is `Auto`.
 
 The next example shows usage of `gallery` component:
-	
+```	
 	title = "Demonstration"
 	url = "/"
 	layout = "default"
@@ -71,11 +71,12 @@ The next example shows usage of `gallery` component:
 	==
 	<!-- Gallery -->
 	<div class="container-fluid">
-		<div class="row">
-			<!-- Make your own style div wrapper for gallery -->
-			<div class="col-md-6 col-md-offset-3 col-xs-12">
-				{% component 'gallery' %}
-			</div>
+	  <div class="row">
+		<!-- Make your own style div wrapper for gallery -->
+		<div class="col-md-6 col-md-offset-3 col-xs-12">
+		  {% component 'gallery' %}
 		</div>
+	  </div>
 	</div>
 	<!-- End Gallery -->
+```
