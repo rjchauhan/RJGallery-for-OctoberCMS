@@ -1,27 +1,23 @@
 {% put styles %}
     <style>
-        #{{ __SELF__ }} {
-            list-style: none outside none;
-            padding-left: 0;
-        }
-        #{{ __SELF__ }} li {
+        #{{ __SELF__ }} div {
             display: block;
             float: left;
-            height: {{ height }}px;
-            margin-bottom: 6px;
-            margin-right: 6px;
-            width: {{ width }}px;
-        }
-        #{{ __SELF__ }} li a {
-            height: {{ height }}px;
-            width: {{ width }}px;
-        }
-        #{{ __SELF__ }} li a img {
-            height: {{ height }}px;
-            width: {{ width }}px;
+            margin: 3px;
         }
     </style>
 {% endput %}
+
+<div style="width:100%" id="{{ __SELF__ }}">
+    {% for image in gallery.images %}
+        <div data-src="{{ image.path }}" data-sub-html="<h4 style='color: white;'>{{ image.title }}</h4><p>{{ image.description }}</p>">
+            <a href="#">
+                <img class="img-responsive" src="{{ image.getThumb(width, height, resizer) }}" alt="{{ image.title }}" />
+            </a>
+        </div>
+    {% endfor %}
+</div>
+
 {% put scripts %}
     <script>
          $(document).ready(function() {
@@ -53,13 +49,3 @@
         });
     </script>
 {% endput %}
-
-<div style="width:100%">
-    <ul id="{{ __SELF__ }}" class="{{ __SELF__ }}">
-        {% for image in gallery.images %}
-            <li data-src="{{ image.path }}" data-title="{{ image.title }}" data-desc="{{ image.description }}">
-                <a href="#"><img src="{{ image.getThumb(width, height, resizer) }}" alt="{{ image.title }}" /></a>
-            </li>
-        {% endfor %}
-    </ul>
-</div>
