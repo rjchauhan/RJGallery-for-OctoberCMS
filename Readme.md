@@ -19,7 +19,7 @@ Create a photo gallery in your website with full screen preview and slideshows. 
 
 # How do this work
 The plugin provides `gallery` component to build photo gallery with many customization settings, through which you can create your own style galleries.
-#####Make your own style **div** wrapper for gallery.
+##### Make your own style **div** wrapper for gallery.
 
 > **Note**: Put `{% styles %}` and `{% scripts %}` in your page header, if not there. If you have already included jQuery.js in your page header, you can set `jQuery Inject` option to no.
 
