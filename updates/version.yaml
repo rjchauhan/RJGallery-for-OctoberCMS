@@ -29,3 +29,5 @@
 - create_categories_table.php
 1.2.0:
 - Light gallery upgraded to v1.4, Several code optimizations
+1.2.1:
+- Hot fix asset loading
