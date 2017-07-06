@@ -46,37 +46,37 @@ The component has the following properties:
 
 The next example shows usage of `gallery` component:
 ```	
-	title = "Demonstration"
-	url = "/"
-	layout = "default"
+title = "Demonstration"
+url = "/"
+layout = "default"
 
-	[gallery]
-	idGallery = "1"
-	lang = "All Photos"
-	jqueryinject = "yes"
-	thumbnail = "true"
-	caption = "true"
-	desc = "true"
-	counter = "true"
-	controls = "true"
-	preload = "1"
-	mode = "lg-slide"
-	speed = "600"
-	loop = "true"
-	auto = "false"
-	pause = "2000"
-	escKey = "true"
-	height = "70"
-	width = "100"
-	==
-	<!-- Gallery -->
-	<div class="container-fluid">
-	  <div class="row">
-		<!-- Make your own style div wrapper for gallery -->
-		<div class="col-md-6 col-md-offset-3 col-xs-12">
-		  {% component 'gallery' %}
-		</div>
-	  </div>
-	</div>
-	<!-- End Gallery -->
+[gallery]
+idGallery = "1"
+lang = "All Photos"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "true"
+desc = "true"
+counter = "true"
+controls = "true"
+preload = "1"
+mode = "lg-slide"
+speed = "600"
+loop = "true"
+auto = "false"
+pause = "2000"
+escKey = "true"
+height = "70"
+width = "100"
+==
+<!-- Gallery -->
+<div class="container-fluid">
+  <div class="row">
+    <!-- Make your own style div wrapper for gallery -->
+    <div class="col-md-6 col-md-offset-3 col-xs-12">
+      {% component 'gallery' %}
+    </div>
+  </div>
+</div>
+<!-- End Gallery -->
 ```
