@@ -35,6 +35,15 @@ class Plugin extends PluginBase
         ];
     }
 
+    public function registerPageSnippets()
+    {
+        return [
+            'Raviraj\Rjgallery\Components\Gallery' => 'galleryId',
+            'Raviraj\Rjgallery\Components\GallerySlug' => 'gallerySlug',
+            'Raviraj\Rjgallery\Components\GalleriesList' => 'galleriesList'
+        ];
+    }
+
     public function registerNavigation()
     {
         return [
