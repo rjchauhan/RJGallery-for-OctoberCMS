@@ -31,3 +31,5 @@
 - Light gallery upgraded to v1.4, Several code optimizations
 1.2.1:
 - Hot fix asset loading
+1.2.2:
+- Page snippets registered
