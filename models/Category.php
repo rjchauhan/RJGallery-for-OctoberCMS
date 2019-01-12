@@ -35,7 +35,7 @@ class Category extends Model
      */
    
     public $belongsToMany = [
-        'galeries' => ['Raviraj\Rjgallery\Models\Gallery',
+        'galleries' => ['Raviraj\Rjgallery\Models\Gallery',
                 'table'  => 'raviraj_rjgallery_galleries_categories',
                 'order'  => 'published_at desc',
                 'scope'  => 'isPublished'
@@ -51,12 +51,12 @@ class Category extends Model
 
     public function afterDelete()
     {
-        $this->galeries()->detach();
+        $this->galleries()->detach();
     }
 
     public function getGalleriesCountAttribute()
     {
-        return $this->galeries()->count();
+        return $this->galleries()->count();
     }
 
 
